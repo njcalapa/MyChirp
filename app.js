@@ -21,7 +21,7 @@ if (process.env.NODE_ENV=="DEV")
 else
     mongoose.connect("mongodb://njcalapa:CtTNHK0k63WjUiiaUQ69rHUQSOujQvFXokttTmcyRtXPgXNU1wp7JH2IV1NcbxqEkr7wUCvCNV2B2AqPNtm01g==@njcalapa.documents.azure.com:10255/test-chirp?ssl=true&replicaSet=globaldb", { useMongoClient: true }); //connect to mongodb
 
-    var app = express();
+var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
